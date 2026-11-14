@@ -1,5 +1,6 @@
-# Lenjuages-De-Interfaz-U3
-Unidad3 Lenjuages de Interfaz
+# Lenjuages De Interfaz U3
+GUARDADO PÉREZ DULCE MARÍA
+DOCENTE: JOSE LUIS MEDINA JIMENEZ
 # Prácticas de Unidad 3 - Lenguaje Ensamblador (x86 / Irvine32)
 
 En este repositorio se encuentran los programas desarrollados durante la Unidad 3 utilizando ensamblador x86 y la librería `Irvine32`, enfocados en el uso de procedimientos, macros y manejo manual de la pila.
