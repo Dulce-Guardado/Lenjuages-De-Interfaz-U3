@@ -1,3 +1,6 @@
+;GUARDADO PEREZ DULCE MARIA
+;01_PROCEDIMIENTOS 
+
 INCLUDE Irvine32.inc
 
 .data
@@ -7,25 +10,27 @@ mensajeFin BYTE "Fin del programa", 0
 
 .code
 main PROC
+    ; Mensaje inicial del programa
     mov edx, OFFSET mensajeInicio
     call WriteString
     call crlf
 
-    ;primera llamada
+    ; Primera llamada al procedimiento y asignacion en EAX
     call mostrarAviso
     mov eax, 10
 
-    ;segunda llamada
+    ; Segunda llamada al procedimiento y modificacion de EAX
     call mostrarAviso
     mov eax, 20
 
+    ; Mensaje de cierre
     mov edx, OFFSET mensajeFin
     call WriteString
     call crlf
     exit
 main ENDP
 
-;mostrar un mensaje y regresar al punto despues del llamado
+; Procedimiento que imprime un aviso en pantalla y regresa al flujo principal
 mostrarAviso PROC
     mov edx, OFFSET mensajeProcedimiento
     call WriteString
